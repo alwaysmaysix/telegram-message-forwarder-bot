@@ -20,6 +20,6 @@ sudo_users = [7169508560]                                 # optional
 [[chats]]
 from = -1002166375707       # required
 to = -1002182973322              # required
-replace = { "new" = "new" } # optional
+replace = { "old" = "new" } # optional
 
 
