@@ -1,0 +1,25 @@
+# api_id and api_hash can be obtained from https://my.telegram.org
+# bot_token can be obtained from https://t.me/botfather
+# session_string can be obtained from https://repl.it/@subinps/GenerateStringSession
+# sudo_users can be obtained from https://t.me/userinfobot
+
+[pyrogram]
+api_id = 8313161                                                      # required
+api_hash = "783831e94237319d610e13ed021313ca"                       # required
+bot_token = "7472420185:AAFVz_P3sSS0HqZ7BohfqulG1yYpm5jb_EE"                  # either bot_token or session_string is required
+session_string = "BAB-2UkAVfvrpZwRJEO9XBY1tmCJ9wbCzuIg0_0CQmsP8b_BzBwMI5umnsgGv46H2UvaniiHN7GJdmQ_Ky9O9hi7teBc5mSaokbVGp_rLjzscQEkQKCqLuMEvXtMfLARcp4D9fLxn6dhKzRLKVPGyQoRkpLaz-Nogrmo7nKUn-pNyqWEdBt9908zfVmqDaU5XCWwnhcNzD2AH3AoOvnsC2FIKb7CqTg2PkeIw-l6Pd9xkyOdwpiwP-XYytpmy0PFVYtPrCS1IZiTTf4I5zO2u007EX2dyKjDMJB6UHoXe4HYxtDJNXr-OKjKfvAJRJDBGevCwe4zMqSo57QOVdqFHKciREW8VwAAAAGrVgTQAA" # either bot_token or session_string is required
+sudo_users = [7169508560]                                 # optional
+
+
+# chat ids can be obtained from https://t.me/getidsbot
+# All chats must be in the format of [-]1001234567890
+# You can add multiple chats in the format of a list
+# You can also add multiple chats in the format of a list of lists
+# Atleast one chat must be added
+
+[[chats]]
+from = -1002241828445       # required
+to = -1002182973322              # required
+replace = { "new" = "new" } # optional
+
+
